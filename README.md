@@ -15,6 +15,22 @@
 <br/>
 <br/>
 
+<!-- All badge shields -->
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/sonibble/official-website/build)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/sonibble/official-website)
+![GitHub language count](https://img.shields.io/github/languages/count/sonibble/official-website)
+![GitHub top language](https://img.shields.io/github/languages/top/sonibble/official-website)
+![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/sonibble/official-website/main)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/sonibble/official-website)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sonibble/official-website)
+![GitHub Sponsors](https://img.shields.io/github/sponsors/nyomansunima)
+![GitHub issues](https://img.shields.io/github/issues/sonibble/official-website)
+![GitHub milestones](https://img.shields.io/github/milestones/open/sonibble/official-website)
+![GitHub](https://img.shields.io/github/license/sonibble/official-website)
+
+<br/>
+<br/>
+
 
 <!-- ABOUT  -->
 ## ✋ About
