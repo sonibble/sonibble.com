@@ -29,11 +29,13 @@ jobs:
         with:
           node-version: 16.x
           
-      - name: Better Vercel Deploy
-        uses: catch-health/deploy-to-vercel-action@v1.0.3
+      - name: Deploy to vercel
+        uses: amondnet/vercel-action@v25
         with:
-          GITHUB_TOKEN: ${{secrets.ACCESS_TOKEN}}
-          VERCEL_TOKEN: ${{secrets.VERCEL_TOKEN}}
-          VERCEL_PROJECT_ID: ${{secrets.VERCEL_PROJECT_ID}}
-          VERCEL_ORG_ID: ${{secrets.VERCEL_ORG_ID}}
-          WORKING_DIRECTORY: /apps/web
+          vercel-token: ${{secrets.VERCEL_TOKEN}}
+          # if you want to comment on pr and commit, set token
+          github-token: ${{secrets.ACCESS_TOKEN}}
+          github-deployment: true
+          working-directory: apps/web
+          vercel-project-id: ${{secrets.VERCEL_PROJECT_ID}}
+          vercel-org-id: ${{secrets.VERCEL_ORG_ID}}
