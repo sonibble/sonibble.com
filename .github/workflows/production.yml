@@ -21,10 +21,18 @@ jobs:
   Production:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Pull Vercel Environment Information
-        run: npx vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
-      - name: Build Project Artifacts
-        run: npx vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
-      - name: Deploy Project Artifacts to Vercel
-        run: npx vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.4.1
+        with:
+          node-version: 16.x
+          
+      - name: Better Vercel Deploy
+        uses: catch-health/deploy-to-vercel-action@v1.0.3
+        with:
+          VERCEL_TOKEN: ${{secrets.VERCEL_TOKEN}}
+          VERCEL_PROJECT_ID: ${{secrets.VERCEL_PROJECT_ID}}
+          VERCEL_ORG_ID: ${{secrets.VERCEL_ORG_ID}}
+          WORKING_DIRECTORY: /apps/web
