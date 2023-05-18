@@ -1,11 +1,10 @@
 # Production Deployment
-# 
+#
 # Allow to push every code into a production environment in vercel
 # so team can easily to see the current result on the final branch
 
 # ======= NOTE ======
 # This deployment is only working on main branch
-
 
 name: Production Deployment to Vercel
 
@@ -19,7 +18,7 @@ on:
       - main
 
 jobs:
-  Preview:
+  Production:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
