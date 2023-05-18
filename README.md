@@ -69,6 +69,7 @@ While building this project, i want to say thank to this awesome stack and refer
 - Vercel
 - Prismic
 - Gsap
+- Turborepo
 
 <br/>
 

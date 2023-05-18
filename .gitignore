@@ -1,9 +1,19 @@
+# NodeJs
 node_modules
 *.log*
+
+# NuxtJs
+dist
 .nuxt
 .nitro
 .cache
 .output
+
+# Env
 .env
-dist
+
+# Vscode
 .DS_Store
+
+# Turbo repo 
+.turbo

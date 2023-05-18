@@ -1,15 +1,21 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
+  "name": "sonibble-official-site",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "devDependencies": {
-    "@types/node": "^18",
-    "nuxt": "^3.5.0"
+    "@nuxt/image-edge": "^1.0.0-28059208.2abef1b",
+    "prettier": "^2.8.8",
+    "turbo": "^1.9.7"
+  },
+  "scripts": {
+    "test": "turbo run test",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "generate": "turbo run generate",
+    "lint": "turbo run lint",
+    "preview": "turbo run preview",
+    "slicemachine": "turbo run slicemachine"
   }
 }
