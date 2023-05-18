@@ -17,3 +17,6 @@ dist
 
 # Turbo repo 
 .turbo
+
+# vercel
+.vercel

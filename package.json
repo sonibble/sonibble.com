@@ -5,7 +5,6 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@nuxt/image-edge": "^1.0.0-28059208.2abef1b",
     "prettier": "^2.8.8",
     "turbo": "^1.9.7"
   },
