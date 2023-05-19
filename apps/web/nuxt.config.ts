@@ -10,5 +10,8 @@ export default defineNuxtConfig({
   ],
   prismic: {
     endpoint: 'sonibble-official-site'
+  },
+  nitro: {
+    preset: 'vercel-edge'
   }
 })

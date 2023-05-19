@@ -11,6 +11,9 @@ name: Preview Deployment to Vercel
 env:
   VERCEL_ORG_ID: ${{secrets.VERCEL_ORG_ID}}
   VERCEL_PROJECT_ID: ${{secrets.VERCEL_PROJECT_ID}}
+  TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+  TURBO_TEAM: ${{ vars.TURBO_TEAM }}
+  TURBO_REMOTE_ONLY: true
 
 on:
   push:
@@ -23,17 +26,24 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
-        
+
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.4.1
         with:
           node-version: 16.x
-          
-      - name: Better Vercel Deploy
-        uses: catch-health/deploy-to-vercel-action@v1.0.3
-        with:
-          VERCEL_TOKEN: ${{secrets.VERCEL_TOKEN}}
-          VERCEL_PROJECT_ID: ${{secrets.VERCEL_PROJECT_ID}}
-          PRODUCTION: false
-          VERCEL_ORG_ID: ${{secrets.VERCEL_ORG_ID}}
-          WORKING_DIRECTORY: /apps/web
+          cache: 'npm'
+
+      - name: Install Vercel CLI
+        run: npm install --global vercel@latest
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Pull Vercel Environment Information
+        run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Build Project Artifacts
+        run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Deploy Project Artifacts to Vercel
+        run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
