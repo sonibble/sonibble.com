@@ -1,0 +1,42 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading_accent": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "fast and productive"
+			},
+			"background_image": {
+				"origin": {
+					"id": "0v_1TPz1uXw",
+					"url": "https://images.unsplash.com/photo-1528825871115-3581a5387919?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw5fHxmcnVpdHxlbnwwfHx8fDE2ODQ1ODg0ODB8MA&ixlib=rb-4.0.3&q=85",
+					"width": 2791,
+					"height": 3907
+				},
+				"url": "https://images.unsplash.com/photo-1528825871115-3581a5387919?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw5fHxmcnVpdHxlbnwwfHx8fDE2ODQ1ODg0ODB8MA&ixlib=rb-4.0.3&q=85",
+				"width": 2791,
+				"height": 3907,
+				"edit": {
+					"background": "transparent",
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				"credits": null,
+				"alt": "Background image",
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "We’re come to help you moving"
+			}
+		},
+		"items": []
+	}
+]

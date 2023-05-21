@@ -1,5 +1,6 @@
 {
   "repositoryName": "sonibble-official-site",
   "adapter": "@slicemachine/adapter-nuxt",
-  "libraries": ["./slices"]
+  "libraries": ["./components/slices"],
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
 }

@@ -1,0 +1,58 @@
+{
+  "id": "creator_team",
+  "type": "SharedSlice",
+  "name": "CreatorTeam",
+  "description": "CreatorTeam",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": { "label": "Heading", "placeholder": "" }
+        },
+        "content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {
+        "avatar": {
+          "type": "Image",
+          "config": { "label": "Avatar", "constraint": {}, "thumbnails": [] }
+        },
+        "name": {
+          "type": "Text",
+          "config": { "label": "Name", "placeholder": "" }
+        },
+        "about": {
+          "type": "StructuredText",
+          "config": {
+            "label": "About",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "role": {
+          "type": "Select",
+          "config": {
+            "label": "Role",
+            "placeholder": "",
+            "options": ["Founder", "Developer", "Designer", "Contributor"]
+          }
+        }
+      }
+    }
+  ]
+}

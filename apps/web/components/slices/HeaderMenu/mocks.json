@@ -1,0 +1,38 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"icon_code",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "muscle",
+							"type": "Text"
+						}
+					],
+					[
+						"label",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "own",
+							"type": "Text"
+						}
+					],
+					[
+						"link",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "pour",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

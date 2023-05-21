@@ -1,0 +1,28 @@
+{
+  "id": "mainheader",
+  "label": "MainHeader",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "logo": {
+        "type": "Image",
+        "config": { "label": "Logo", "constraint": {}, "thumbnails": [] }
+      },
+      "logo_name": {
+        "type": "Text",
+        "config": { "label": "Logo Name", "placeholder": "" }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "header_menu": { "type": "SharedSlice" },
+            "button": { "type": "SharedSlice" }
+          }
+        }
+      }
+    }
+  }
+}
