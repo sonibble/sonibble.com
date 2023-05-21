@@ -5,12 +5,13 @@
     "packages/*"
   ],
   "devDependencies": {
+    "concurrently": "^8.0.1",
     "prettier": "^2.8.8",
     "turbo": "^1.9.7"
   },
   "scripts": {
     "test": "turbo run test",
-    "dev": "turbo run dev",
+    "dev": "concurrently 'turbo run dev' 'turbo run slicemachine'",
     "build": "turbo run build",
     "generate": "turbo run generate",
     "lint": "turbo run lint",

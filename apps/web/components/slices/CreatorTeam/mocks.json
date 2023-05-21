@@ -1,0 +1,87 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "cap",
+				"type": "Text"
+			},
+			"content": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Laboris deserunt ut tempor dolore elit est ex commodo cillum minim voluptate aute culpa. Aute ea consequat culpa ut consequat magna ex adipisicing fugiat ut ipsum magna."
+						}
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"avatar",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb",
+								"width": 3958,
+								"height": 3958
+							},
+							"url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb",
+							"width": 3958,
+							"height": 3958,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"name",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "empty",
+							"type": "Text"
+						}
+					],
+					[
+						"about",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Irure aute nisi sit elit fugiat sint commodo sunt veniam anim. Laboris cupidatat officia adipisicing ut officia proident dolore consequat duis laborum ullamco mollit eiusmod. Mollit incididunt duis sunt ipsum velit quis sint ullamco laboris mollit."
+									}
+								}
+							]
+						}
+					],
+					[
+						"role",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "Contributor",
+							"type": "Select"
+						}
+					]
+				]
+			}
+		]
+	}
+]

@@ -6,6 +6,7 @@ import aspectRatio from '@tailwindcss/aspect-ratio'
 import typography from '@tailwindcss/typography'
 
 export default <Partial<Config>>{
+  content: ['./slices/**/*.vue'],
   theme: {
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],
@@ -17,7 +18,11 @@ export default <Partial<Config>>{
       laptop: '1024px',
       desktop: '1280px'
     },
-    extend: {}
+    extend: {
+      fontSize: {
+        base: '15px'
+      }
+    }
   },
   plugins: [forms, aspectRatio, typography]
 }
