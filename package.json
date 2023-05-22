@@ -7,7 +7,7 @@
   "devDependencies": {
     "concurrently": "^8.0.1",
     "prettier": "^2.8.8",
-    "turbo": "^1.9.7"
+    "turbo": "^1.9.8"
   },
   "scripts": {
     "test": "turbo run test",
