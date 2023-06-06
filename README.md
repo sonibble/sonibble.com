@@ -1,19 +1,4 @@
-<div id="top"/>
-
-<!-- PROJECT INFO -->
-<div align="center">
-  <img src="https://github.com/sonibble/official-website/assets/54091887/7f546250-e476-4601-af32-b1c43adab577" alt="Sonibble Logo" height="80" width="80"/>
-  <br/>
-  <h1>Sonibble Official Website</h1>
-  <br/>
-  🎯 Official site to sharing and expand products
-  <br/>
-  <br/>
-  <a href="https://github.com/sonibble/official-website"><strong>🗂️ Explore docs</strong></a>
-</div>
-
-<br/>
-<br/>
+![Website Banner](https://github.com/sonibble/sonibble.com/assets/54091887/1391b1f7-6ceb-49d7-8897-be1a99e1389d)
 
 <!-- All badge shields -->
 
@@ -29,7 +14,12 @@
 ![GitHub milestones](https://img.shields.io/github/milestones/open/sonibble/official-website)
 ![GitHub](https://img.shields.io/github/license/sonibble/official-website)
 
-<br/>
+
+<!-- PROJECT INFO -->
+# Sonibble Official Website</h1>
+  <br/>
+  🎯 Official site to sharing and expand products
+
 <br/>
 
 <!-- ABOUT  -->
