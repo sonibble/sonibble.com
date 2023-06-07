@@ -1,4 +1,5 @@
-![Website Banner](https://github.com/sonibble/sonibble.com/assets/54091887/1391b1f7-6ceb-49d7-8897-be1a99e1389d)
+![Website Banner](https://github.com/sonibble/sonibble.com/assets/54091887/1791e8b3-d499-455f-9ea1-d2be5cdaa322)
+
 
 <!-- All badge shields -->
 
