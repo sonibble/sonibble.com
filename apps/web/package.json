@@ -22,7 +22,7 @@
     "@flaticon/flaticon-uicons": "^2.2.0",
     "@nuxt/image-edge": "^1.0.0-280592n08.2abef1b",
     "@studio-freight/lenis": "^1.0.14",
-    "gsap": "^3.12.0",
+    "gsap": "^3.12.1",
     "vee-validate": "^4.9.4"
   }
 }
