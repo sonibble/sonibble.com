@@ -16,3 +16,15 @@ updates:
     commit-message:
       prefix: "dependencies"
       include: "scope"
+
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/apps/web" # Location of package manifests
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "nyomansunima"
+    labels:
+      - "🥝 dependencies"
+    commit-message:
+      prefix: "dependencies"
+      include: "scope"
