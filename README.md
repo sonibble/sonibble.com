@@ -1,25 +1,27 @@
 ![Website Banner](https://github.com/sonibble/sonibble.com/assets/54091887/1791e8b3-d499-455f-9ea1-d2be5cdaa322)
 
-
 <!-- All badge shields -->
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/sonibble/official-website/build)
-![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/sonibble/official-website)
-![GitHub language count](https://img.shields.io/github/languages/count/sonibble/official-website)
-![GitHub top language](https://img.shields.io/github/languages/top/sonibble/official-website)
-![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/sonibble/official-website/main)
-![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/sonibble/official-website)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sonibble/official-website)
+[![GitHub Super-Linter](https://github.com/sonibble/sonibble.com/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/sonibble/sonibble.com/build)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/sonibble/sonibble.com)
+![GitHub language count](https://img.shields.io/github/languages/count/sonibble/sonibble.com)
+![GitHub top language](https://img.shields.io/github/languages/top/sonibble/sonibble.com)
+![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/sonibble/sonibble.com/main)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/sonibble/sonibble.com)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sonibble/sonibble.com)
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/nyomansunima)
-![GitHub issues](https://img.shields.io/github/issues/sonibble/official-website)
-![GitHub milestones](https://img.shields.io/github/milestones/open/sonibble/official-website)
-![GitHub](https://img.shields.io/github/license/sonibble/official-website)
-
+![GitHub issues](https://img.shields.io/github/issues/sonibble/sonibble.com)
+![GitHub milestones](https://img.shields.io/github/milestones/open/sonibble/sonibble.com)
+![GitHub](https://img.shields.io/github/license/sonibble/sonibble.com)
 
 <!-- PROJECT INFO -->
-# Sonibble Official Website</h1>
-  <br/>
-  🎯 Official site to sharing and expand products
+
+# Sonibble.com
+
+<br/>
+
+🎯 Official site to sharing and expand products
 
 <br/>
 
