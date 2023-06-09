@@ -8,15 +8,11 @@
     "generate": {},
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**", ".output/**", ".nuxt/**", "."]
+      "outputs": ["dist/**", ".output/**", ".nuxt/**"]
     },
     "preview": {},
     "postinstall": {},
     "lint": {},
-    "test": {},
-    "slicemachine": {
-      "cache": false,
-      "persistent": true
-    }
+    "test": {}
   }
 }

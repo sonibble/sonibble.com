@@ -1,0 +1,20 @@
+{
+  "productMaps": [
+    {
+      "icon": "fi fi-sr-paper-plane",
+      "label": "Software"
+    },
+    {
+      "icon": "fi fi-sr-circle-heart",
+      "label": "Libraries"
+    },
+    {
+      "icon": "fi fi-sr-object-subtract",
+      "label": "UI"
+    },
+    {
+      "icon": "fi fi-sr-apps",
+      "label": "Templates"
+    }
+  ]
+}

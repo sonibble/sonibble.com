@@ -1,22 +1,19 @@
 {
-  "name": "sonibble-official-site",
+  "name": "sonibble.com",
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
   "devDependencies": {
-    "concurrently": "^8.0.1",
-    "prettier": "^2.8.8",
     "turbo": "^1.9.7"
   },
   "scripts": {
     "test": "turbo run test",
-    "dev": "concurrently 'turbo run dev' 'turbo run slicemachine'",
+    "dev": "turbo run dev",
     "build": "turbo run build",
     "generate": "turbo run generate",
     "lint": "turbo run lint",
     "preview": "turbo run preview",
-    "postinstall": "turbo run postinstall",
-    "slicemachine": "turbo run slicemachine"
+    "postinstall": "turbo run postinstall"
   }
 }

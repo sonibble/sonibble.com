@@ -1,14 +1,14 @@
-<!-- Main layout -->
-<!-- manage the main purpose layout for apps -->
 <template>
-  <!-- Header -->
-  <MainHeader />
+  <div>
+    <!-- header -->
+    <MainHeader />
 
-  <!-- childs -->
-  <main class="flex flex-col min-h-screen">
-    <slot>Children</slot>
-  </main>
+    <!-- content -->
+    <slot />
 
-  <!-- Footer -->
-  <MainFooter />
+    <!-- footer -->
+    <MainFooter />
+  </div>
 </template>
+
+<script setup lang="ts"></script>

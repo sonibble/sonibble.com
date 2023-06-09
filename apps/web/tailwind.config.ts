@@ -6,23 +6,22 @@ import aspectRatio from '@tailwindcss/aspect-ratio'
 import typography from '@tailwindcss/typography'
 
 export default <Partial<Config>>{
-  content: ['./slices/**/*.vue'],
   theme: {
     fontFamily: {
-      poppins: ['Poppins', 'sans-serif'],
+      heading: ['Poppins', 'sans-serif'],
       sans: ['DM Sans', 'sans-serif'],
-      mono: ['DM Mono', 'monospace']
+      mono: ['DM Mono', 'monospace'],
     },
     screens: {
       tablet: '640px',
       laptop: '1024px',
-      desktop: '1280px'
+      desktop: '1280px',
     },
     extend: {
-      fontSize: {
-        base: '15px'
-      }
-    }
+      colors: {
+        brand: '#5B41E8',
+      },
+    },
   },
-  plugins: [forms, aspectRatio, typography]
+  plugins: [forms, aspectRatio, typography],
 }

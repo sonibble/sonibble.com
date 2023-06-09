@@ -1,0 +1,135 @@
+{
+  "menus": [
+    {
+      "headline": "Products",
+      "items": [
+        {
+          "label": "Apps",
+          "link": "/products"
+        },
+        {
+          "label": "Template",
+          "link": "/products"
+        },
+        {
+          "label": "Libraries",
+          "link": "/products"
+        },
+        {
+          "label": "SDKs",
+          "link": "/products"
+        },
+        {
+          "label": "API",
+          "link": "/products"
+        }
+      ]
+    },
+    {
+      "headline": "Docs",
+      "items": [
+        {
+          "label": "How to use",
+          "link": "/products"
+        },
+        {
+          "label": "How to setup",
+          "link": "/products"
+        },
+        {
+          "label": "Donating",
+          "link": "/products"
+        },
+        {
+          "label": "Support us",
+          "link": "/products"
+        },
+        {
+          "label": "Hard works",
+          "link": "/products"
+        }
+      ]
+    },
+    {
+      "headline": "Community",
+      "items": [
+        {
+          "label": "Newsletter",
+          "link": "/products"
+        },
+        {
+          "label": "Discords",
+          "link": "/products"
+        },
+        {
+          "label": "Sponsorships",
+          "link": "/products"
+        },
+        {
+          "label": "Contributors",
+          "link": "/products"
+        },
+        {
+          "label": "Projects",
+          "link": "/products"
+        },
+        {
+          "label": "Questions",
+          "link": "/products"
+        }
+      ]
+    },
+    {
+      "headline": "Resources",
+      "items": [
+        {
+          "label": "Contributing",
+          "link": "/products"
+        },
+        {
+          "label": "Ideas",
+          "link": "/products"
+        },
+        {
+          "label": "Request App",
+          "link": "/products"
+        },
+        {
+          "label": "Know more",
+          "link": "/products"
+        }
+      ]
+    },
+    {
+      "headline": "Sonibble",
+      "items": [
+        {
+          "label": "About us",
+          "link": "/products"
+        },
+        {
+          "label": "Github",
+          "link": "/products"
+        },
+        {
+          "label": "Supports",
+          "link": "/products"
+        },
+        {
+          "label": "FAQs",
+          "link": "/products"
+        }
+      ]
+    }
+  ],
+  "creditMenus": [
+    {
+      "label": "Privacy Policy",
+      "link": "/privacy"
+    },
+    {
+      "label": "Terms",
+      "link": "/terms"
+    }
+  ]
+}
