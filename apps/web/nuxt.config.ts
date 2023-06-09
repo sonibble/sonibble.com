@@ -9,6 +9,9 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/devtools',
   ],
+  nitro: {
+    preset: 'vercel-edge',
+  },
   css: [
     '@flaticon/flaticon-uicons/css/all/all.css',
     '~/assets/styles/globals.css',
