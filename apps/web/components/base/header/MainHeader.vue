@@ -15,7 +15,7 @@
         <li
           v-for="menu in menus"
           :key="menu.path"
-          class="flex items-center font-medium transition-all duration-300 hover:-translate-y-1"
+          class="flex items-center text-base transition-all duration-300 hover:-translate-y-1"
         >
           <NuxtLink :to="menu.path">{{ menu.label }}</NuxtLink>
         </li>
