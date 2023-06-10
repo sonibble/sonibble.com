@@ -130,12 +130,25 @@
 </template>
 
 <script setup lang="ts">
+import { gsap } from 'gsap'
+
 definePageMeta({
   layout: 'main',
 })
 
 useSeoMeta({
   title: 'Privacy Policy',
-  description: 'Our privacy poolicy',
+  description: 'Our privacy policy',
+  ogTitle: 'Privacy Policy | Sonibble',
+  ogDescription: 'Our privacy policy',
+})
+
+onMounted(() => {
+  gsap.from('main', {
+    opacity: 0,
+    y: 200,
+    ease: 'expo',
+    duration: 1.2,
+  })
 })
 </script>
