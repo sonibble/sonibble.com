@@ -8,7 +8,6 @@
 
     <!-- footer -->
     <MainFooter />
+    <CursorFollower />
   </div>
 </template>
-
-<script setup lang="ts"></script>
