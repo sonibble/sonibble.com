@@ -1,7 +1,9 @@
 <template>
   <footer class="flex flex-col">
     <!-- menus -->
-    <div class="grid grid-cols-5 border border-gray-100 border-dashed relative">
+    <div
+      class="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-5 border border-gray-100 border-dashed relative"
+    >
       <div
         class="h-14 w-14 rounded-2xl border border-dashed absolute -top-7 bg-white left-1/2 -ml-7"
       >
