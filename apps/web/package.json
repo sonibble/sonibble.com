@@ -23,6 +23,7 @@
     "@nuxt/image-edge": "^1.0.0-28101255.bece998",
     "@studio-freight/lenis": "^1.0.14",
     "gsap": "^3.12.1",
-    "vee-validate": "^4.9.4"
+    "vee-validate": "^4.9.4",
+    "yup": "^1.2.0"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "links": [
+    {
+      "icon": "fi fi-rr-interrogation",
+      "title": "Questions",
+      "desc": "We have answer most asked question. Now you can get in single click.",
+      "link": "/faqs"
+    },
+    {
+      "icon": "fi fi-rr-play",
+      "title": "Community",
+      "desc": "Let's join our community to connect each other and collaborate together",
+      "link": "/community"
+    },
+    {
+      "icon": "fi fi-rr-graduation-cap",
+      "title": "Help",
+      "desc": "Solve problem in help, you can get contact and suport by the community",
+      "link": "/help"
+    }
+  ]
+}

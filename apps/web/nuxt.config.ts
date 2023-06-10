@@ -12,6 +12,9 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'vercel-edge',
   },
+  image: {
+    inject: true,
+  },
   css: [
     '@flaticon/flaticon-uicons/css/all/all.css',
     '~/assets/styles/globals.css',
