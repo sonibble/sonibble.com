@@ -41,12 +41,12 @@ onMounted(() => {
   }
 
   const moveX = gsap.quickTo('#cursor-follower', 'x', {
-    duration: 0.7,
-    ease: 'power2',
+    duration: 1.2,
+    ease: 'expo',
   })
   const moveY = gsap.quickTo('#cursor-follower', 'y', {
-    duration: 0.7,
-    ease: 'power2',
+    duration: 1.2,
+    ease: 'expo',
   })
 
   const moveCursor = (e: MouseEvent) => {
