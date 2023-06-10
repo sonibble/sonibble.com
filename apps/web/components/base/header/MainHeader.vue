@@ -9,7 +9,7 @@
 
     <!-- navigation -->
     <div
-      class="flex border rounded-full px-10 py-4 absolute bg-black top-5 text-white navigation"
+      class="hidden tablet:flex border rounded-full px-10 py-4 absolute bg-black top-5 text-white navigation"
     >
       <ul class="flex items-center gap-8 !m-0">
         <li
